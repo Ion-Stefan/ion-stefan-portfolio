@@ -3,7 +3,7 @@ import { Cursor } from "./components/Cursor";
 import { HeroSection } from "./components/HeroSection";
 import { TextSection } from "./components/TextSection";
 import { GetInTouch } from "./components/GetInTouch";
-import { WorkShowcase } from "./components/WorkShowcase";
+import { FeaturedProjectsSection } from "./components/FeaturedProjectsSection";
 
 export default function App() {
   return (
@@ -17,7 +17,9 @@ export default function App() {
         </div>
       </section>
       <section id="work">
-        <WorkShowcase />
+        <div className="flex items-center px-[2vw]">
+          <FeaturedProjectsSection />
+        </div>
       </section>
       <section id="contact">
         <GetInTouch />

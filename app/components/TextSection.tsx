@@ -18,8 +18,7 @@ export const TextSection = () => {
       </p>
       <p className="text-[#f5f5f5] font-mono">
         I like to brag about how using Neovim makes me code so much faster and I
-        will try my hardest to make you change to Neovim or at least consider
-        it.
+        will try my hardest to make you swap to Neovim or at least consider it.
       </p>
     </div>
   );
