@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 30, 30, 30;
+  --background-start-rgb: 245, 245, 245;
+  --background-end-rgb: 245, 245, 245;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 245, 245, 245;
+    --background-start-rgb: 30, 30, 30;
+    --background-end-rgb: 30, 30, 30;
   }
 }
 
@@ -30,4 +30,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.text-auto-resize {
+  font-size: min(17.5vw); /* Adjust based on viewport width or height */
+  white-space: nowrap; /* Prevent text wrapping */
 }
