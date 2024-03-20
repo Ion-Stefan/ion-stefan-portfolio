@@ -21,7 +21,7 @@ export default function App() {
           <FeaturedProjectsSection />
         </div>
       </section>
-      <section id="contact">
+      <section id="contact" className="flex items-center px-[2vw]">
         <GetInTouch />
       </section>
     </>
